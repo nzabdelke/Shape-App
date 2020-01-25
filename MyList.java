@@ -20,7 +20,7 @@ public class MyList {
         return size;
     }
 
-    // Add to end of list
+    // Add to end
     public void add(Object data) {
         if (head == null) {
             head = new Node(data);
